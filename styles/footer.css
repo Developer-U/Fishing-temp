@@ -1,0 +1,146 @@
+.footer {
+  width: 100%;
+  padding: 58px 0 43px 0;
+  background-color: #1d1e1e;
+}
+
+.footer__list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 51px;
+  border-bottom: 1px #6d6d6d solid;
+}
+
+.footer__logo {
+  width: 34%;
+  margin-top: 4px;
+}
+
+.footer__logolink {
+  display: block;
+  width: 100%;
+}
+
+.footer__text , .footer-contacts__text {
+  color: #6d6d6d;
+}
+
+.footer-contacts__text {
+  line-height: 29px;
+}
+
+.footer__text {
+  max-width: 55%;
+  min-height: 98px;
+  margin-top: -4px;
+  letter-spacing: .8px;
+}
+
+.footer__link {
+  margin-bottom: 7px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #009ee2;
+}
+
+.footer__menu {
+  width: 17%;
+}
+
+.footer__heading {
+  margin-bottom: 12px;
+}
+
+.footer__item {
+  margin-bottom: 4px;
+}
+
+.footer-item-link , .footer__phone , .heading-menu {
+  font-family: "Panton-Bold";
+  text-transform: uppercase;
+}
+
+.footer__phone , .footer__link {
+  display: block;
+}
+
+.heading-menu {
+  font-size: 12px;
+  letter-spacing: 2.3px;
+  color: #fff;
+}
+
+.footer-item-link {
+  font-size: 12px;
+  color: #6d6d6d;
+}
+
+.footer__phone {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #6d6d6d;
+}
+
+.footer__shipment {
+  width: 17%;
+}
+
+.footer-contacts {
+  width: 17%;
+  margin: 0;
+  font-style: normal;
+}
+
+.footer-contacts:nth-last-child(1) {
+  width: 14%;
+}
+
+.footer-social {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-social__copyright {
+  max-width: 50%;
+  font-size: 12px;
+  color: #6d6d6d;
+}
+
+.footer-social__links {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  font-size: 0;
+}
+
+.facebook , .instagram , .vk {
+  display: block;
+  background-size: contain;
+  background-position: center;
+}
+
+.vk {
+  width: 27px;
+  height: 17px;
+  background: url("../img/icons/vk.png") 100% no-repeat;
+}
+
+.facebook {
+  width: 16px;
+  height: 24px;
+  background: url("../img/icons/facebook.png") 100% no-repeat;
+}
+
+
+.instagram {
+  width: 21px;
+  height: 21px;
+  background: url("../img/icons/instagram.png") 100% no-repeat;
+}

@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Товары для рыбалки по лучшим ценам!">
+
+    <title>Товары для рыбалки</title>
+
+    <style>@font-face {font-family: 'Panton-Black';	src: url('..fonts/Panton-Black.woff') format('woff');}</style>
+    <style>@font-face {font-family: 'Panton-SemiBold';	src: url('../fonts/Panton-SemiBold.woff') format('woff');}</style>
+    <style>@font-face {font-family: 'Panton-Regular';	src: url('../fonts/Panton-Regular.woff') format('woff');}</style>
+    <style>@font-face {font-family: 'Panton-Bold';	src: url('../fonts/Panton-Bold.woff') format('woff');}</style>
+    <style>@font-face {font-family: 'Panton-ExtraBold';	src: url('../fonts/Panton-ExtraBold.woff') format('woff');}</style>
+    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/min.js"></script>
+    <script src="js/slick.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="fixed-container flex">
+                <ul class = "top-bar__items list-reset">
+                    <li class="top-bar__item">
+                        <a href="#" class="top-bar__link">Доставка</a>
+                    </li>
+
+                    <li class="top-bar__item">
+                        <a href="#" class="top-bar__link">Оплата</a>
+                    </li>
+
+                    <li class="top-bar__item">
+                        <a href="#" class="top-bar__link">Возврат</a>
+                    </li>
+
+                    <li class="top-bar__item">
+                        <a href="#" class="top-bar__link">Оптовым покупателям</a>
+                    </li>
+                </ul>                
+
+                <address class="header-contacts">
+                    <p class="header-contacts__text">бесплатно по России</p>
+
+                    <a class="header-contacts__phone" href="tel:+780000000">8-800-000-00-00</a>                                  
+                </address>
+            </div>
+        </div>
+
+        <div class="middle-bar">
+            <div class="fixed-container flex">
+                <a class="middle-bar__link">
+                    <img src="img/LOGOtype.png" alt="Логотип интернет-магазина">
+                </a>
+                
+                <form class="middle-bar__search-form" method="POST" enctype="text/plain">
+                    <input id="search" class="middle-bar__search-area" type="search" placeholder="Что Вы ищете?" size="68">
+
+                    <button type="submit" class="middle-bar__button" aria-label="Поиск по сайту"></button>
+                </form>
+                
+                <ul class="middle-bar__item list-reset">
+                    <li><a class="profile" href="https://webref.ru/css/box-shadow"></a></li>
+                    <li><a class="favorites" href="#" aria-label="Избранное"><sup>3</sup></a></li>
+                    <li><a class="basket" href="https://webref.ru/css/box-shadow" aria-label="Корзина"><sup>2</sup></a></li>                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-bar">
+            <div class="fixed-container flex-start">
+                <div class="menu-bar__cataloque_list border">
+                    <a href = "#">
+                        <div class = "menu-bar__burger">
+                            <span class = "menu-bar__stripe"></span>
+
+                            <span class = "menu-bar__stripe"></span>
+
+                            <span class = "menu-bar__stripe"></span>
+                        </div>
+                    </a>
+                    
+                    <label class="menu-bar__select">
+                        Каталог товаров
+                        <select class="menu-bar__option">
+                            <option class="product-option">Каталог товаров</option>                           
+                        </select>
+                    </label>
+                </div>
+
+                <nav class="menu-bar__menu">
+                    <ul class = "menu__items list-reset">
+                        <li class="menu__item">
+                            <a href="#" class="top-bar__link">о компании</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="top-bar__link">акции</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="top-bar__link">новости</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="top-bar__link">блог</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="top-bar__link">эксперты</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#" class="top-bar__link">контакты</a>
+                        </li>
+                    </ul> 
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="special-offer">
+            <h1 class ="main-heading visually-hidden"> Лучшие предложения для рыбалки</h1>
+
+            <div class="fixed-container flex">                
+                <ul class = "special-offer__list list-reset">
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Катушки</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Удилища</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Приманки</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Воблеры</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Лески и шнуры</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Поплавки</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Крючки</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Аксессуары</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Одежда</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Снаряжение</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Электроника</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Зимняя рыбалка</option>                                
+                            </select>
+                        </label>
+                    </li>
+
+                    <li class="special-offer__items border">
+                        <label class="special-offer__select">                            
+                            <select class="special-offer__option">
+                                <option value="Roller">Другое</option>                                
+                            </select>
+                        </label>
+                    </li>                   
+                </ul>
+                
+                <ul class="special-articles list-reset flex">
+                    <li class="special-articles__slider">                         
+                        <div>
+                            <div class = "special-articles__slide border">
+                                <img class= "special-articles__slide-image" src = "img/roller.png" alt = "Катушка Adrenalin 7300 BC">
+
+                                <div class="spesial-articles__slide-left">
+                                    <h2 class="special-articles__mainheading">
+                                        специальные предложения
+                                    </h2>
+
+                                    <h3 class="special-articles__description">
+                                        катушка Adrenalin 7300 BC
+                                    </h3>
+
+                                    <h4 class="special-articles__price">
+                                         5&nbsp;600&nbsp;p.
+                                    </h4>
+                                                 
+                                    <button class="special-articles__button" type="submit">купить</button>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class = "special-articles__slide border">
+                                <img class= "special-articles__slide-image2" src = "img/roller_2.png" alt = "Катушка Adrenalin 7300 BC">
+
+                                <div class="spesial-articles__slide-left">
+                                    <h2 class="special-articles__mainheading">
+                                        специальные предложения
+                                    </h2>
+
+                                    <h3 class="special-articles__description">
+                                        катушка Matze Koch Rollen
+                                    </h3>
+
+                                    <h4 class="special-articles__price">
+                                         5&nbsp;600&nbsp;p.
+                                    </h4>
+                                                    
+                                    <button class="special-articles__button" type="submit">купить</button>                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class = "special-articles__slide border">
+                                <img class= "special-articles__slide-image3" src = "img/purepng.png" alt = "Удилище Adrenalin 7300 BC">
+
+                                <div class="spesial-articles__slide-left">
+                                    <h2 class="special-articles__mainheading">
+                                        Бестселлер
+                                    </h2>
+
+                                    <h3 class="special-articles__description">
+                                        удилище Adrenalin 7300 BC
+                                    </h3>
+
+                                    <h4 class="special-articles__price">
+                                         4&nbsp;800&nbsp;p.
+                                    </h4>
+
+                                    <h2 class="discounts__sale-text big-price">-30%</h2>
+                                                   
+                                    <button class="special-articles__button" type="submit">купить</button>                                    
+                                </div>
+                            </div>
+                        </div> 
+                    </li>
+
+                    <li class = "special-list border">
+                        <img class = "special-list__img1" src = "img/rawbite.png" alt = "Рыба на крючке">
+
+                        <h2 class="special-list__heading">
+                            новые приманки
+                        </h2>
+
+                        <h3 class="special-list__description">
+                            для подледной ловли
+                        </h3>
+
+                        <a href="#" aria-label="Ссылка на предложение" class="arrow-right-container"></a>
+                    </li>
+
+                    <li class = "special-list border">
+                        <img class = "special-list__img2" src = "img/book.png" alt = "Каталог о рыбалке">
+
+                        <h2 class="special-list__heading">
+                            скачайте каталог
+                        </h2>
+
+                        <h3 class="special-list__description">
+                            для оптовиков
+                        </h3>
+
+                        <a href="#" aria-label="Ссылка на предложение" class="arrow-right-container"></a>
+                    </li>
+
+                    <li class = "special-list border">
+                        <img class = "special-list__img3" src = "img/fisher.png" alt = "Рыбак с рыбой">
+
+                        <h2 class="special-list__heading">
+                            эксперты отвечают
+                        </h2>
+
+                        <h3 class="special-list__description">
+                            на ваши вопросы
+                        </h3>
+
+                        <a href="#" aria-label="Ссылка на предложение" class="arrow-right-container"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bestsellers">
+            <div class="fixed-container border-top">
+                <h2 class = "bestsellers__heading_main">хиты продаж</h2>
+
+                <a class = "bestsellers__link" href = "#">весь каталог</a>
+
+                <div class = "bestsellers__slider">
+                    <div>
+                        <article class="main-slide border">
+                            <img class="main-slide__img" src = "img/roller_2.png" alt = "катушка Adrenalin 7300 BC">
+
+                            <h2 class="main-slide__heading">
+                                Бестселлер
+                            </h2>
+
+                            <h3 class="main-slide__description">
+                                катушка Adrenalin 7300 BC
+                            </h3>
+
+                            <h4 class="main-slide__price">
+                                4&nbsp;800&nbsp;p.
+                           </h4>
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img" src = "img/rod.png" alt = "Удилище Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Удилище<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    13&nbsp;490&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                           
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>
+                            
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border">скидка</span>
+
+                            <span class="hit border">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img2" src = "img/fish.png" alt = "Удилище Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Приманка<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    3&nbsp;240&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                           
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                            
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img3" src = "img/roller_3.png" alt = "Удилище Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Катушка<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    5&nbsp;600&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                            
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                            
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img3" src = "img/roller_3.png" alt = "Удилище Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Катушка<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    5&nbsp;600&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                            
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                            
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img3" src = "img/roller_3.png" alt = "Удилище Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Катушка<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    5&nbsp;600&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                           
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                            
+                        </article>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="bestsellers top">
+            <div class="fixed-container border-top">
+                <h2 class = "bestsellers__heading_main">новинки</h2>
+
+                <a class = "bestsellers__link" href = "#">весь каталог</a>
+
+                <div class = "bestsellers-news__slider">
+                    <div>
+                        <article class="main-slide border news">
+                            <h2 class="sale-text">-30%</h2>
+
+                            <img class="news-slide__img" src = "img/purepng.png" alt = "удилище Adrenalin 7300 BC">
+
+                            <h2 class="main-slide__heading">
+                                Акция
+                            </h2>
+
+                            <h3 class="main-slide__description news-slide__description">
+                                удилище Adrenalin 7300 BC
+                            </h3>
+
+                            <h4 class="main-slide__price">
+                                4&nbsp;800&nbsp;p.
+                           </h4>
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border invisible">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img4" src = "img/roller_2.png" alt = "Удилище Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Катушка<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    13&nbsp;490&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                          
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                           
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border">скидка</span>
+
+                            <span class="hit border invisible">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img5" src = "img/fish_net.png" alt = "Подсачок Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Подсачок<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    3&nbsp;240&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action">
+                                Ваша выгода 2&nbsp;590&nbsp;р.
+                            </small>
+                                            
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                           
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border invisible">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img6" src = "img/bag.png" alt = "Сумка рыболовная Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Сумка рыболовная<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    5&nbsp;600&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                         
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                            
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border">скидка</span>
+
+                            <span class="hit border invisible">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img5" src = "img/fish_net.png" alt = "Подсачок Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Подсачок<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    3&nbsp;240&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action">
+                                Ваша выгода 2&nbsp;590&nbsp;р.
+                            </small>
+                                         
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                           
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class = "bestseller-product-card border">
+                            <span class="sale border invisible">скидка</span>
+
+                            <span class="hit border invisible">хит</span>
+
+                            <div class="img-container">
+                                <img class = "bestseller-product-card__img img6" src = "img/bag.png" alt = "Сумка рыболовная Matze Koch Rollen">
+                            </div>
+
+                            <div class="stars-container">
+                                <fieldset class = "rating">
+                                    <legend class = "rating__caption">Рейтинг</legend>
+
+                                    <div class="rating__group">
+                                        <input type="radio" class = "full-star" name = "rating" value = "1" aria-label = "Ужасно" checked>
+                                        <input type="radio" class = "full-star" name = "rating2" value = "2" aria-label = "Плохо" checked>
+                                        <input type="radio" class = "full-star" name = "rating3" value = "3" aria-label = "Хорошо" >
+                                        <input type="radio" class = "full-star" name = "rating4" value = "4" aria-label = "Отлично" >
+                                        <input type="radio" class = "full-star" name = "rating5" value = "5" aria-label = "Огонь">
+                                    </div>
+                                </fieldset>
+
+                                <span class = "heart invisible"></span>
+                            </div>
+
+                            <p class="bestseller-product-card__description">
+                                Сумка рыболовная<br>Matze Koch Rollen 
+                            </p>
+
+                            <div class = "price-container">
+                                <h4 class="bestseller-product-card__price">
+                                    5&nbsp;600&nbsp;p.
+                                </h4>
+
+                                <h4 class="price_old invisible">
+                                    6&nbsp;200&nbsp;p.
+                                </h4>
+                            </div>
+
+                            <small class="bestseller-product-card__action invisible">
+                                Ваша выгода 3&nbsp;200&nbsp;р.
+                            </small>
+                                           
+                            <button class="bestseller-product-card__button border" type="submit">в корзину</button>                           
+                        </article>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="bestsellers top">
+            <div class="fixed-container border-top news-margin">
+                <h2 class = "bestsellers__heading_main">последние новости</h2>
+
+                <a class = "bestsellers__link" href = "#">все новости</a>
+            </div>
+
+            <div class="last-news">
+                <div class="fixed-container flex-start">
+                    <div class="last-news__slider">
+                        <div class = "slide2">
+                            <div class="last-news__slide border">
+                                <figure class="last-news__contain">
+                                    <time datetime="2020-03-30" class="date-time border">13.02.2019</time>
+                                    
+                                    <img class="last-news__img" src = "img/last_news_fisher.png" alt ="Рыбак с рыбкой">
+                                </figure>
+
+                                <div class="last-news__description">
+                                    <h3 class="last-news__heading">
+                                        презентация нового продукта
+                                    </h3>
+
+                                    <p class="last-news__text">
+                                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                                        с начала XVI века. В то время некий безымянный печатник создал
+                                        большую...  
+                                    </p>
+
+                                    <a class="last-news__link" href = "#">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div>
+                            <div class="last-news__slide border">
+                                <figure class="last-news__contain">
+                                    <time datetime="2020-03-30" class="date-time border">13.02.2019</time>
+                                    
+                                    <img class="last-news__img" src = "img/last_news_2fisher.png" alt ="Рыбак с рыбкой">
+                                </figure>
+
+                                <div class="last-news__description">
+                                    <h3 class="last-news__heading">
+                                        презентация нового продукта
+                                    </h3>
+
+                                    <p class="last-news__text">
+                                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                                        с начала XVI века. В то время некий безымянный печатник создал
+                                        большую...  
+                                    </p>
+
+                                    <a class="last-news__link" href = "#">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="last-news__slide border">
+                                <figure class="last-news__contain">
+                                    <time datetime="2020-03-30" class="date-time border">13.02.2019</time>
+                                    
+                                    <img class="last-news__img" src = "img/last_news_fisher3.png" alt ="Рыбак с рыбкой">
+                                </figure>
+
+                                <div class="last-news__description">
+                                    <h3 class="last-news__heading">
+                                        презентация нового продукта
+                                    </h3>
+
+                                    <p class="last-news__text">
+                                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                                        с начала XVI века. В то время некий безымянный печатник создал
+                                        большую...  
+                                    </p>
+
+                                    <a class="last-news__link" href = "#">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="last-news__slide border">
+                                <figure class="last-news__contain">
+                                    <time datetime="2020-03-30" class="date-time border">13.02.2019</time>
+                                    
+                                    <img class="last-news__img" src = "img/last_news_fisher3.png" alt ="Рыбак с рыбкой">
+                                </figure>
+
+                                <div class="last-news__description">
+                                    <h3 class="last-news__heading">
+                                        презентация нового продукта
+                                    </h3>
+
+                                    <p class="last-news__text">
+                                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                                        с начала XVI века. В то время некий безымянный печатник создал
+                                        большую...  
+                                    </p>
+
+                                    <a class="last-news__link" href = "#">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="last-news__mailing">
+                        Подпишитесь на рассылку и будьте в курсе новостей,
+                        акций, новинок
+                    </h4>
+    
+                    <form class="last-news__search-form border" method="POST" enctype="text/plain">
+                        <input id="last-news-search" class="last-news__search-area" type="search" placeholder="Ваш email">
+    
+                        <button type="submit" class="last-news__button border">подписаться</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <aside class="discounts">
+            <div class="fixed-container flex">
+                <div class="discounts__block border">
+                    <h2 class="discounts__sale-text">-30%</h2>
+
+                    <h2 class="discounts__heading">Скидка<br>на все лески</h2>
+
+                    <h3 class="discounts__description">
+                        до 15 декабря
+                    </h3>
+
+                    <a href="#" aria-label="Ссылка на предложение" class="arrow-discounts"></a>
+
+                    <img class="discounts__img1" src = "img/coil.png" alt = "катушка">
+                </div>
+
+                <div class="discounts__block border">
+                    <h2 class="discounts__sale-text">-10%</h2>
+
+                    <h2 class="discounts__heading">Скидка<br>на катушки</h2>
+
+                    <h3 class="discounts__description">
+                        до 31 января
+                    </h3>
+
+                    <a href="#" aria-label="Ссылка на предложение" class="arrow-discounts"></a>
+
+                    <img class="discounts__img2" src = "img/roller-discount.png" alt = "катушка">
+                </div>
+            </div>            
+        </aside>
+
+        <section class="company-decsription">
+            <div class="fixed-container">
+                <h2>о компании</h2>
+
+                <div class = "company-decsription__text">
+                    <p class = "company-decsription__paragraph">Душа моя озарена неземной радостью, как эти чудесные
+                        весенние утра, которыми я наслаждаюсь от всего сердца.
+                        Я совсем один и блаженствую в здешнем краю, словно созданном
+                        для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя,
+                        что искусство мое страдает от этого. 
+                    </p>
+                    
+                    <p class = "company-decsription__paragraph">Ни одного штриха не мог бы я сделать, а никогда не был таким большим
+                        художником, как в эти минуты. Когда от милой моей долины поднимается пар
+                        и полдневное солнце стоит над непроницаемой чащей темного леса и лишь
+                        редкий луч проскальзывает в его святая святых.
+                    </p>
+                    
+                    <p class = "company-decsription__paragraph">А я лежу в высокой траве у
+                        быстрого ручья и, прильнув к земле,Вижу тысячи всевозможных былинок и чувствую, как близок моему сердцу
+                        крошечный мирок, что снует между стебельками. Вижу тысячи всевозможных былинок и чувствую, как близок моему сердцу
+                        крошечный мирок, что снует между стебельками.
+                    </p>
+                    
+                    <p class = "company-decsription__paragraph">Наблюдаю эти неисчислимые,
+                        непостижимые разновидности червяков и мошек и чувствую близость
+                        всемогущего, создавшего нас по своему подобию, веяние вселюбящего,
+                        судившего нам парить в вечном блаженстве, когда взор мой туманитсяи все вокруг меня и небо надо мной запечатлены в моей душе, точно
+                        образ возлюбленной, - тогда, дорогой друг, меня часто томит мысль:
+                        "Ах! Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так
+                        трепетно живет во мне, запечатлеть отражение моей души, как душа моя -
+                        отражение предвечного бога!" Наблюдаю эти неисчислимые,
+                        непостижимые разновидности червяков и мошек и чувствую близость
+                        всемогущего, создавшего нас по своему подобию, веяние вселюбящего,
+                        судившего нам парить в вечном блаженстве, когда взор мой туманитсяи все вокруг меня и небо надо мной запечатлены в моей душе, точно
+                        образ возлюбленной, - тогда, дорогой друг, меня часто томит мысль:
+                        "Ах! Как бы выразить, как бы вдохнуть в рисунок то, что так полно, так
+                        трепетно живет во мне, запечатлеть отражение моей души, как душа моя -
+                        отражение предвечного бога!" запечатлеть отражение моей души, как душа моя -
+                        отражение предвечного бога!" 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="fixed-container">
+            <div class="footer__list">
+                <div class="footer__logo">
+                    <a class="footer__logolink">
+                        <img src="img/LOGOtype1.png" alt="Логотип интернет-магазина">
+                    </a>
+
+                    <p class="footer__text">официальный представитель в России</p>
+
+                    <a class="footer__link" href = "#">Скачать каталог 2020</a>
+
+                    <a class="footer__link" href = "#">Связаться с нами</a>
+                </div>
+
+                <nav class = "footer__menu">
+                    <ul class = "list-reset">
+                        <li class="footer__heading">
+                            <h4 class="heading-menu">компания</h4>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">о компании</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">акции</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">новости</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">блог</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">эксперты</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class = "footer__shipment">
+                    <ul class = "list-reset">
+                        <li class="footer__heading">
+                            <h4 class="heading-menu">покупателям</h4>
+                        </li>
+                        
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">каталог</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">оплата</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">доставка</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">возврат</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="#" class="footer-item-link">помощь</a>
+                        </li>
+                    </ul>   
+                </nav>
+
+                <address class="footer-contacts">
+                    <div class="footer__heading">
+                        <p class="heading-menu">оптовикам</p>
+                    </div>
+
+                    <a class="footer__phone" href="tel:+780000000">8-800-000-00-00</a>
+                    
+                    <a class="footer__phone" href="tel:+780000000">8-800-000-00-00</a>
+
+                    <a class="footer__phone" href="tel:+780000000">8-800-000-00-00</a>
+
+                    <a class="footer__link" href="mailto:info@mail.ru">info@mail.ru</a>
+                </address>
+
+                <address class="footer-contacts">
+                    <div class="footer__heading">
+                        <p class="heading-menu">контакты</p>
+                    </div>
+
+                    <p class="footer-contacts__text">г. Москва, ул. Иванова д.5, пом. 8, оф. 11</p>
+                    
+                    <a class="footer__phone" href="tel:+780000000">8-800-000-00-00</a>
+
+                    <a class="footer__phone" href="tel:+780000000">8-800-000-00-00</a>
+
+                    <a class="footer__link" href="mailto:info@yandex.ru">info@yandex.ru</a>
+                </address>
+            </div>
+
+            <div class="footer-social">
+                <p class="footer-social__copyright">
+                    © 2010-2019 Ltd. Все права защищены.
+                </p>
+
+                <ul class="footer-social__links list-reset">
+                    <li><a class="vk" href="#" aria-label="Мы вконтакте"></a></li>
+                    <li><a class="facebook" href="#" aria-label="Мы на Facebook"></a></li>                                     
+                    <li><a class="instagram" href="#" aria-label="Мы в Instagram"></a></li>
+                </ul>
+
+            </div>
+        </div>  
+    </footer>
+</body>

@@ -1,0 +1,796 @@
+/*-----Левая колонка------*/
+
+.special-offer {
+  margin-top: 30px;
+}
+
+.special-offer__list {
+  width: 23%;
+  font-size: 15px;
+  font-family: "Panton-Bold";
+  box-shadow: 0 15px 20px -6px rgba(29, 30,30, .4);
+}
+
+.main-heading {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.special-offer__items {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 45px;
+  margin-bottom: 2px;
+  padding: 10px 18px 10px 24px;
+  padding-left: 37px;
+  letter-spacing: .6px;
+  background: url("../img/icons/bullet_black.svg") no-repeat;
+  background-color: #efefef;
+  background-size: 11px auto;
+  background-position: 23px 50%;
+}
+
+.special-offer__items:hover , .special-offer__items:focus {
+  background-color: #24aadd;
+}
+
+.special-offer__option {
+  position: absolute;
+  top: 40%;
+  right: -2px;
+  width: 90%;
+  border: 0;
+  background: url("../img/icons/arrow-right.png") no-repeat;
+  background-size: 12px 18px;
+  background-position: right center;
+  transform: translateY(-70%);
+  outline: none;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.special-offer__select {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.special-offer__select::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  left: 0;
+}
+
+
+/*-----Центральная колонка специальные предложения------*/
+
+.special-articles {
+  width: 74.3%;
+}
+
+.special-articles__slider {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.special-articles__slide {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 409px;
+  padding: 60px 40px;
+  background: radial-gradient(circle farthest-corner at 600px 300px, #4cd2fe, #0086c0);
+  box-shadow: 0 25px 20px -10px rgba(29, 30,30, .3);
+}
+
+.special-articles__slide-image {
+  position: absolute;
+  z-index: 10;
+  right: 9.5%;
+  bottom: 0;
+  width: 332px;
+  height: auto;
+}
+
+.special-articles__slide-image2 {
+  position: absolute;
+  z-index: 10;
+  right: 8%;
+  bottom: 4%;
+  width: 280px;
+  height: auto;
+}
+
+.special-articles__slide-image3 {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 24%;
+  width: auto;
+  height: 90%;
+}
+
+.spesial-articles__slide-left {
+  max-width: 40%;
+}
+
+.special-articles__mainheading {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.special-articles__description {
+  margin-top: 18px;
+  margin-bottom: 13px;
+}
+
+.special-articles__price {
+  margin-bottom: 33px;
+}
+
+.special-articles__button {
+  padding: 18px 46px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Panton-Bold";
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+  color: #fff;
+  background-color: #1d1e1e;
+  border-radius: 3px;
+}
+
+.special-list {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 31%;
+  min-height: 172px;
+  padding: 21px 95px 16px 24px;
+  background: radial-gradient(circle farthest-corner at 600px 300px, #4cd2fe, #0086c0);
+  box-shadow: 0 15px 20px -6px rgba(29, 30,30, .5);
+}
+
+.special-list:nth-last-child(1) {
+  padding-left: 20px;
+}
+
+.special-list__img1 , .special-list__img2 , .special-list__img3 {
+  position: absolute;
+  height: auto;
+  transition: .6s;
+}
+
+.special-list__img1:hover , .special-list__img2:hover , .special-list__img3:hover , .special-list__img1:focus , .special-list__img2:focus , .special-list__img3:focus {
+  transform: scale(1.2);
+  transition: .6s;
+}
+
+.special-list__img1 {
+  right: -7%;
+  bottom: -8%;
+}
+
+.special-list__img2 {
+  right: -8%;
+  bottom: -8%;
+}
+
+.special-list__img3 {
+  right: 0;
+  bottom: -2%;
+}
+
+.special-list__heading {
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-family: "Panton-Bold";
+  line-height: 26px;
+  letter-spacing: .4px;
+  color: #fff;
+}
+
+.special-list__description {
+  min-height: 45px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.arrow-right-container , .arrow-discounts {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.arrow-right-container {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/icons/arrow-right-white.png);
+}
+
+.arrow-discounts {
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/icons/arrow-right-white-big.png);
+}
+
+
+/*-----Хиты продаж------*/
+
+.bestsellers {
+  margin-top: 99px;
+}
+
+.top {
+  margin-top: 69px;
+}
+
+.bestsellers__heading_main {
+  display: inline-block;
+}
+
+.bestsellers__link {
+  display: inline-block;
+  max-width: 25%;
+  margin-left: 32px;
+  font-size: 11px;
+  font-family: "Panton-Bold";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  color: #009ee2;
+}
+
+.bestsellers__slider , .bestsellers-news__slider {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 42px;
+}
+
+.main-slide , .bestseller-product-card {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.main-slide {
+  margin-left: 0;
+}
+
+.bestseller-product-card:nth-last-child(1) {
+  margin-right: 0;
+}
+
+
+.main-slide {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 26px 30px;
+  background: radial-gradient(circle farthest-corner at 600px 300px, #4cd2fe, #0086c0);
+}
+
+.news {
+  padding: 30px 30px 37px 30px;
+}
+
+.main-slide__img , .news-slide__img {
+  position: absolute;
+  height: auto;
+}
+
+.main-slide__img {
+  right: 2%;
+  bottom: 13%;
+}
+
+.news-slide__img {
+  z-index: 2;
+  top: -.5%;
+  right: 12%;
+}
+
+.sale-text , .discounts__sale-text {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  font-size: 95px;
+  font-family: "Panton-ExtraBold";
+  opacity: .2;
+  color: #fff;
+  transform: translateX(-50%);
+}
+
+.big-price {
+  top: 60%;
+  left: 80%;
+  font-size: 140px;
+  transform: translateX(-25%);
+}
+
+.sale-text {
+  bottom: 38%;
+}
+
+.discounts__sale-text {
+  bottom: 18%;
+  left: 46%;
+}
+
+.main-slide__heading , .discounts__heading {
+  text-transform: none;
+  letter-spacing: .4px;
+  color: #fff;
+}
+
+.main-slide__heading {
+  margin-bottom: 15px;
+  font-size: 33px;
+}
+
+.discounts__heading {
+  min-height: 156px;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 1.2px;
+  color: #fff;
+}
+
+.main-slide__description {
+  min-height: 330px;
+  padding-right: 40%;
+  line-height: 30px;
+}
+
+.news-slide__description {
+  min-height: 318px;
+}
+
+.bestseller-product-card {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 25px 13px 16px 16px;
+  border: 1px #efefef solid;
+  box-shadow: 0 10px 15px -5px rgba(29, 30,30, .2);
+}
+
+.img-container {
+  overflow: hidden;
+  height: 228px;
+  vertical-align: top;
+}
+
+.bestseller-product-card__img {
+  height: auto;
+  padding-top: 0;
+  text-align: center;
+
+  object-fit: cover;
+}
+
+.img2 {
+  padding-top: 7%;
+  padding-left: 12%;
+}
+
+.img3 {
+  width: auto;
+  height: 100%;
+}
+
+.img4 {
+  width: auto;
+  height: 90%;
+  padding-top: 9%;
+  padding-left: 15%;
+}
+
+.img5 {
+  padding-top: 24%;
+}
+
+.img6 {
+  padding-top: 16%;
+  padding-left: 14%;
+}
+
+.stars-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating {
+  width: 70%;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.rating__caption {
+  display: none;
+  margin-bottom: 2px;
+  padding: 0;
+}
+
+.rating__group {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.full-star , .empty-star {
+  position: absolute;
+  top: 0;
+
+/* display: inline-block; */
+  left: 0;
+  width: 15px;
+  height: 15px;
+  font-size: inherit;
+  background-image: url(../img/icons/star1.png);
+  background-size: 15px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.full-star:focus {
+  outline: none;
+}
+
+.full-star:checked , .full-star:hover {
+  background-image: url(../img/icons/star_full.png);
+  background-size: 15px 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.full-star:hover ~ .full-star {
+  background-image: url(../img/icons/star1.png);
+}
+
+.full-star:nth-of-type(1) {
+  z-index: 5;
+  width: 15px;
+}
+
+.full-star:nth-of-type(2) {
+  z-index: 6;
+  width: 48px;
+}
+
+.full-star:nth-of-type(3) {
+  z-index: 7;
+  width: 81px;
+}
+
+.full-star:nth-of-type(4) {
+  z-index: 8;
+  width: 114px;
+}
+
+.full-star:nth-of-type(5) {
+  z-index: 9;
+  width: 147px;
+}
+
+.heart {
+  display: block;
+  width: 25px;
+  height: 20px;
+  margin-right: 12px;
+  background-image: url(../img/icons/valentines-heart.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bestseller-product-card__description {
+  min-height: 40px;
+  margin: 6px 0;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .6px;
+}
+
+.price-container {
+  display: block;
+  max-height: 20px;
+}
+
+.bestseller-product-card__price {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Panton-ExtraBold";
+  line-height: 22px;
+  color: #1d1e1e;
+}
+
+.price_old {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: line-through;
+  color: #6d6d6d;
+}
+
+.bestseller-product-card__action {
+  min-height: 10px;
+  font-size: 11px;
+  color: #00963f;
+}
+
+.bestseller-product-card__button {
+  margin: 0;
+  padding: 16px 50px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "Panton-Bold";
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #fff;
+  background: radial-gradient(circle farthest-corner at 10px 70px, #4cd2fe, #0086c0);
+  cursor: pointer;
+}
+
+.sale , .hit {
+  position: absolute;
+  padding: 4px 15px;
+  font-size: 12px;
+  font-family: "Panton-ExtraBold";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.sale {
+  top: 0;
+  left: 0;
+  background-color: #00963f;
+}
+
+.hit {
+  top: 8.4%;
+  left: 0;
+  background: radial-gradient(circle farthest-corner at 10px 70px, #4cd2fe, #0086c0);
+}
+
+
+/*----Последние новости----*/
+
+.last-news {
+  padding-bottom: 40px;
+  background-color: #efefef;
+}
+
+.last-news__slider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -209px;
+}
+
+.last-news__slide {
+  display: flex;
+  overflow: hidden;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 15px 15px -8px rgba(29, 30,30, .2);
+}
+
+.last-news__contain {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: 209px;
+  margin: 0;
+}
+
+.date-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 7px 15px;
+  font-size: 13px;
+  font-family: "Panton-SemiBold";
+  line-height: 22px;
+  letter-spacing: .5px;
+  color: #fff;
+  background-color: #1d1e1e;
+}
+
+.news-margin {
+  margin-bottom: 14%;
+}
+
+@media screen and (max-width: 1680px) {
+  .news-margin {
+    margin-bottom: 19.5%;
+  }
+}
+
+.last-news__img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.last-news__description {
+  padding: 16px 26px 16px 26px;
+}
+
+.last-news__heading {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-family: "Panton-ExtraBold";
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  color: #1d1e1e;
+}
+
+.last-news__text {
+  overflow-y: hidden;
+  height: 124px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #626363;
+}
+
+.last-news__link {
+  font-size: 10px;
+  font-family: "Panton-Bold";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  color: #009ee2;
+}
+
+.last-news__mailing {
+  margin: 20px auto 30px auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Panton-Bold";
+  line-height: 36px;
+  letter-spacing: -.2px;
+  color: #1d1e1e;
+}
+
+.last-news__search-form {
+  overflow: hidden;
+  width: 100%;
+  min-height: 58px;
+  font-size: 0;
+  box-shadow: 5px 10px 15px 5px rgba(29, 30,30, .1);
+}
+
+.last-news__search-area {
+  display: inline-block;
+  width: 77%;
+  padding: 10px 30px;
+  border: 0;
+  font-size: 18px;
+  line-height: 36px;
+  color: #626363;
+  background-color: #fff;
+  outline: none;
+}
+
+.last-news__button {
+  display: inline-block;
+  width: 22.9%;
+  margin: 0;
+  padding: 17px;
+  border: 0;
+  font-size: 16px;
+  font-family: "Panton-SemiBold";
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+  color: #fff;
+  background: radial-gradient(circle farthest-corner at 10px 70px, #4cd2fe, #0086c0);
+  cursor: pointer;
+}
+
+
+/*-----Рекламный блок скидки-----*/
+
+.discounts {
+  margin-top: 60px;
+}
+
+.discounts__description {
+  position: absolute;
+  z-index: 1;
+  top: 21%;
+  left: 42%;
+}
+
+.discounts__block {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 48.7%;
+  padding: 44px 110px 42px 40px;
+  background: radial-gradient(circle farthest-corner at 600px 300px, #4cd2fe, #0086c0);
+  box-shadow: 0 25px 20px -10px rgba(29, 30,30, .3);
+}
+
+.discounts__img1 , .discounts__img2 {
+  position: absolute;
+  z-index: 2;
+  height: auto;
+}
+
+.discounts__img1 {
+  right: 3.3%;
+  bottom: -3.5%;
+}
+
+.discounts__img2 {
+  right: 2.5%;
+  bottom: -8.5%;
+}
+
+
+/*------О компании-------*/
+
+.company-decsription {
+  margin: 100px 0 108px 0;
+}
+
+.company-decsription__text {
+  margin-top: 50px;
+
+  columns: 2;
+}
+
+.company-decsription__paragraph {
+  margin-bottom: 26px;
+}
+
+
+
+
+
+

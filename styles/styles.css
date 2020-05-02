@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Panton-Black";
+
+  src: url("..fonts/Panton-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Panton-SemiBold";
+
+  src: url("../fonts/Panton-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Panton-Regular";
+
+  src: url("../fonts/Panton-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Panton-Bold";
+
+  src: url("../fonts/Panton-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Panton-ExtraBold";
+
+  src: url("../fonts/Panton-ExtraBold.woff") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1140px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Panton-SemiBold", sans-serif;
+  line-height: 25px;
+  letter-spacing: .2px;
+  color: #1d1e1e;
+  background-color: #fff;
+}
+
+* , *::before , *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/*Созданный мной шаблон для элемента, который должен быть в макете по
+правилам верстки (например в article обязательно должен быть заголовок), но
+по дизайну его быть не должно. В отличие от display:none, это свойство
+не вырезает элемент из кода и не скрывает от поисковых систем и 
+экранных дикторов, но делает не видимым в дизайне.*/
+
+.visually-hidden {
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.news-container .fixed-container {
+  overflow-y: hidden;
+}
+
+/*Контейнер-центровщик*/
+
+.fixed-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.list-reset , p {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-start {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+sup {
+  top: -.9px;
+  right: -2.5px;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.border {
+  border-radius: 3px;
+}
+
+h1 , h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-family: "Panton-ExtraBold";
+  text-transform: uppercase;
+  letter-spacing: 1.55px;
+  color: #1d1e1e;
+}
+
+
+h3 {
+  margin: 0;
+  font-size: 22px;
+  font-family: "Panton-SemiBold";
+  letter-spacing: 1px;
+  color: #4cd2fe;
+}
+
+h4 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "Panton-Regular";
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Panton-SemiBold";
+  color: #1d1e1e;
+}
+
+.slide {
+  margin: 0 auto !important;
+} 
+
+.slide2 {
+  width: 31.5%;
+}
+
+.border-top {
+  padding: 50px 0 0 0;
+  border-top: 1px #efefef solid;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.slick-track {
+  padding-bottom: 30px !important;
+}
+
+button {
+  cursor: pointer;
+}
